@@ -48,5 +48,6 @@ Here's a well-researched and concise breakdown of **Case 2: Facial
 5. **Human-in-the-Loop**
 
    * Facial recognition results must be reviewed by trained human analysts to **prevent blind reliance** on machine outputs.
+![image alt](https://github.com/paulkeysdev/AI-Ethics-Assignment-wk7/blob/3dcb94958b1cb944f5bcbc2a37cc22793ee0f432/IMGS/img2)
 
 
