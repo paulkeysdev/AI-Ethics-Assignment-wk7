@@ -76,14 +76,9 @@ print("False Positive Rate (White):", classified_metric.false_positive_rate(priv
 
 ## 📝 5. **Report Template (300 Words)**
 
-> **Bias in COMPAS Recidivism Dataset**
->
-> The COMPAS dataset, widely used in predicting recidivism, shows notable disparities in how racial groups are assessed. Using IBM’s AIF360 toolkit, we analyzed racial bias based on COMPAS risk scores. Our findings reveal that African-American individuals face disproportionately high false positive rates compared to Caucasians.
->
-> Disparate impact analysis returned a value below 0.8, indicating significant adverse impact. The false positive rate for Black individuals was observed to be almost twice that of White individuals, showing systemic misclassification. Such disparities raise critical ethical concerns, especially in criminal justice where these predictions may influence sentencing, parole, or bail decisions.
->
-> To mitigate this bias, we recommend using preprocessing techniques such as reweighing or adopting in-processing fairness-aware algorithms like adversarial debiasing. Post-processing techniques (e.g., equalized odds) may also be applied after classification.
->
-> Going forward, it is vital to ensure transparency in how these models are trained, involve domain experts in the evaluation loop, and periodically audit these systems for fairness. Any algorithm affecting human freedom must meet strict ethical scrutiny.
+**Bias in COMPAS Recidivism Dataset**
+
+The COMPAS dataset, widely used in predicting recidivism, shows notable disparities in how racial groups are assessed. Using IBM’s AIF360 toolkit, we analyzed racial bias based on COMPAS risk scores. Our findings reveal that African-American individuals face disproportionately high false positive rates compared to Caucasians.
+Disparate impact analysis returned a value below 0.8, indicating significant adverse impact. The false positive rate for Black individuals was observed to be almost twice that of White individuals, showing systemic misclassification. Such disparities raise critical ethical concerns, especially in criminal justice where these predictions may influence sentencing, parole, or bail decisions.To mitigate this bias, we recommend using preprocessing techniques such as reweighing or adopting in-processing fairness-aware algorithms like adversarial debiasing. Post-processing techniques (e.g., equalized odds) may also be applied after classification.Going forward, it is vital to ensure transparency in how these models are trained, involve domain experts in the evaluation loop, and periodically audit these systems for fairness. Any algorithm affecting human freedom must meet strict ethical scrutiny.
 
 
