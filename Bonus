@@ -1,0 +1,41 @@
+ Policy Proposal: Ethical AI Use in Healthcare
+1. Purpose
+To ensure the ethical deployment of Artificial Intelligence (AI) in healthcare settings by safeguarding patient rights, promoting fairness, and ensuring transparency in all AI-driven decisions.
+
+2. Patient Consent Protocols
+Informed Consent: AI tools must only be used on patients who have provided informed, voluntary, and revocable consent.
+
+Clear Communication: Explain AI involvement in medical decisions using non-technical language. Patients must understand:
+
+What the AI does (e.g., diagnosis support, triage).
+
+What data it collects and how it's used.
+
+The right to opt-out or request human-only evaluation.
+
+Consent Logging: Maintain a secure, time-stamped record of consent for audit and legal compliance.
+
+3. Bias Mitigation Strategies
+Inclusive Training Data: Train models on diverse datasets that represent the population by gender, race, age, disability, and socioeconomic status.
+
+Bias Audits: Regularly audit AI outputs for disparities in diagnosis, treatment recommendations, or outcomes using tools like AI Fairness 360 or Fairlearn.
+
+Mitigation Measures: Apply debiasing techniques (e.g., reweighing, preprocessing, adversarial debiasing) and adjust clinical thresholds if group disparities emerge.
+
+Stakeholder Review: Engage medical ethicists, marginalized communities, and clinicians in reviewing system performance and ethics.
+
+4. Transparency Requirements
+Explainability: AI decisions that affect diagnosis, prognosis, or treatment must be explainable to both clinicians and patients.
+
+Documentation: Maintain a living document of:
+
+Model architecture and training data.
+
+Known limitations and accuracy rates.
+
+Version changes and audit logs.
+
+Human Oversight: Final medical decisions must rest with a qualified human clinician, not an AI system.
+
+5. Accountability
+Any harm caused by AI use should be traceable. Establish liability policies and error-reporting protocols.
