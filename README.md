@@ -1,1 +1,0 @@
-# AI-Ethics-Assignment-wk7
