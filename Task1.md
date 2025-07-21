@@ -50,4 +50,5 @@ To measure fairness after applying fixes:
 3. **False Negative Rate Parity:**
 
    * Checks if qualified candidates from different groups are equally likely to be incorrectly rejected.
+   ![image alt](https://github.com/paulkeysdev/AI-Ethics-Assignment-wk7/blob/6e5a64cfde608747642e2dfb200eb5d0bc92ad56/IMGS/ChatGPT%20Image%20Jul%2021%2C%202025%2C%2004_29_52%20PM.png)
 
